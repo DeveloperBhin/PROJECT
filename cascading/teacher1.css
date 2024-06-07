@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(43, 36, 73);
+    align-items:center;
+    padding:0px;
+    margin:0px;
+}
+.columns1{
+    width:50%;
+    margin:0px;
+    padding:0px;
+   
+    border-style:solid;
+    border-radius:5px;
+    
+    float:left;
+    background-color: rgb(43, 36, 73);
+    height:61.5vh;
+    width:300px;
+    border:2px solid rgb(18, 18, 26);
+    border-radius:5px;
+    
+    text-align:none;
+   
+
+
+    
+
+    
+}
+header{
+            
+    font-size:33px;
+    color:white;
+    background-color:rgb(18, 18, 23);
+    height:25vh;
+    text-align:center;
+    
+}
+footer{
+    background-color: rgb(204, 227, 204);
+    color: rgb(43, 151, 65);
+    padding: 1px ;
+    text-align: center;
+    margin-top:400px;
+}
+.columns2{
+    width:30%;
+     float:left;
+     padding:0px;
+     background-color: rgb(43, 36, 73);
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 18px;
+     margin:0px;
+     width:150vh;
+     color: #f0f0f0;
+    
+     
+     text-align:non;
+    }
+    a{
+        text-decoration:none;
+        color:#f19999;
+    }
+    button{
+        width:300px;
+        background-color: rgb(19, 12, 29);
+        height:50px;
+        border-radius:5px;
+        padding:0PX;
+        margin:0px;
+    }
+    .dashboard{
+        background-color: rgb(4, 4, 30);
+        margin:0px;
+        padding:0px;
+        width:165vh;
+        height:10vh;
+        font-size:28px;
+        
+    }
+    .h1{
+        color:rgb(241, 234, 234);
+        margin-left:550px;
+    }
+    .bod{
+        background-color:white;
+        width:500px;
+        height:200px;
+        color: rgb(4, 4, 30);
+        margin-left:210px;
+        margin-top:30px;
+        border:2px solid rgb(11, 11, 239);
+        border-radius:5px;
+        box-shadow: 2px 2px 2px 2px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size:20px;
+    
+    }

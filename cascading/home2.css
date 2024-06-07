@@ -1,0 +1,73 @@
+body {
+    
+    padding:0px;
+    margin:0px;
+    background-color: rgb(6, 36, 74);
+    
+}
+
+.hd {
+    font-size: 28px;
+    color:white;
+    background-color:rgb(18, 18, 23);
+    text-align: center;
+    height: 25vh;
+}
+
+button {
+    margin-left: 50px; /* Adjusted for a more reasonable value */
+    background-color: rgb(8, 8, 71);
+    height: 30px;
+    border: solid white;
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.slider-frame {
+    overflow: hidden;
+    height: 362px;
+    width: 1200px;
+     
+    position: relative;
+    margin-left: 100px;
+    margin-top:0%;
+    padding:0px;
+
+    
+}
+
+@keyframes slide_animation {
+    0%, 15% { left: 0; }
+    25%, 40% { left: -1200px; }
+    50%, 65% { left: -2400px; }
+    75%, 90% { left: -1200px; }
+    100% { left: 0; }
+}
+
+.slide-images {
+    height: 800px;
+    width: 3600px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex; /* Use flexbox to handle the positioning of img-container */
+    animation: slide_animation 10s infinite;
+}
+
+.img-container {
+    height: 40%;
+    width:80%;
+    flex: 0 0 2400px; /* Flex item should not shrink or grow, and should be 1200px wide */
+    margin-top:0% ;
+}
+footer{
+    background-color: rgb(204, 227, 204);
+    color: rgb(43, 151, 65);
+    padding: 0.02px ;
+    text-align: center;
+    margin-top:8px;
+}
